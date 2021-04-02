@@ -1,0 +1,30 @@
+[
+  {
+    "id": "prod_JEOOD0Epan0bU5",
+    "title": "Schmidt Mediterranean Briar",
+    "description": "Wood Tobacco Pipe",
+    "image": "/images/Schmidt_Mediterranean_Briar.jpg",
+    "price": 49.99
+  },
+  {
+    "id": "prod_JEOSYfAAuJ7LlX",
+    "title": "Prince Walnut Mediterranean",
+    "description": "Briar Wood Tobacco Pipe",
+    "image": "/images/Prince_Walnut_Mediterranean.jpg",
+    "price": 20.00
+  },
+  {
+    "id": "prod_JEOTIsOE0uKSD6",
+    "title": "Kaiser Pear Wood Pipe",
+    "description": "With Complete Accessories Kit",
+    "image": "/images/Kaiser_Pear_Wood_Pipe_Kit.jpg",
+    "price": 35.99
+  },
+  {
+    "id": "prod_JEOV3M19Tg0lWH",
+    "title": "Sherlock Holmes Italian Olive",
+    "description": "Wood Tobacco Pipe",
+    "image": "/images/Sherlock_Holmes_Italian_Olive.jpg",
+    "price": 20.99
+  }
+]
