@@ -5,49 +5,52 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Smoke Pipes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className={styles.title}> 
+          Tobacco Pipes For Sale
         </h1>
+        <p className={styles.description}>Get Your Pipe Today And Happy Piping!</p>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <ul className={styles.grid}>
+          <li className={styles.card}>
+            <a href="https://nextjs.org/docs">
+              <img src="/images/Schmidt_Mediterranean_Briar.jpg" alt="Schmidt Mediterranean Briar"/>
+              <h3>Schmidt Mediterranean Briar</h3>
+              <p>Wood Tobacco Pipe</p>
+            </a>
+          </li>
+          <li className={styles.card}>
+            <a href="https://nextjs.org/learn">
+              <img src="/images/Prince_Walnut_Mediterranean.jpg" alt="Prince Walnut Mediterranean"/>
+              <h3>Prince Walnut Mediterranean</h3>
+              <p>Briar Wood Tobacco Pipe</p>
+            </a>
+          </li>
+          <li className={styles.card}>
+            <a
+              href="https://github.com/vercel/next.js/tree/master/examples"
+            >
+              <img src="/images/Kaiser_Pear_Wood_Pipe_Kit.jpg" alt="Kaiser Pear Wood Pipe Kit"/>
+              <h3>Kaiser Pear Wood Pipe</h3>
+              <p>With Complete Accessories Kit</p>
+            </a>
+          </li>
+          <li className={styles.card}>
+            <a
+              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            >
+              <img src="/images/Sherlock_Holmes_Italian_Olive.jpg" alt="Sherlock Holmes Italian Olive"/>
+              <h3>Sherlock Holmes Italian Olive</h3>
+              <p>
+                Wood Tobacco Pipe
+              </p>
+            </a>
+          </li>
+        </ul>
       </main>
 
       <footer className={styles.footer}>
